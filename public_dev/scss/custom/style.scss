@@ -1,0 +1,936 @@
+@font-face {
+  font-family: 'mullerblack-regular';
+  src: url('/fonts/mullerblack-regular-webfont.woff2') format('woff2'),
+  url('/fonts/mullerblack-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mullerblack-italic';
+  src: url('/fonts/mullerblack-italic-webfont.woff2') format('woff2'),
+  url('/fonts/mullerblack-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mullerextra-bold';
+  src: url('/fonts/mullerextra-bold-webfont.woff2') format('woff2'),
+  url('/fonts/mullerextra-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'muller-heavy';
+  src: url('/fonts/muller-heavy-webfont.woff2') format('woff2'),
+  url('/fonts/muller-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotocondensed-bold';
+  src: url('/fonts/robotocondensed-bold-webfont.woff2') format('woff2'),
+  url('/fonts/robotocondensed-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotocondensed-regular';
+  src: url('/fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+  url('/fonts/robotocondensed-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ptrouble';
+  src: url('/fonts/ptrouble-webfont.woff2') format('woff2'),
+  url('/fonts/ptrouble-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+$blackcolor: #161616;
+$seacolor: #a5e1f2;
+$bluecolor: #2295b6;
+
+
+
+
+body {
+  .content {
+    width: 1167px;
+    margin: auto;
+  }
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   HEADER START   /////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+header {
+  padding: 100px 0 150px;
+  background-color: $seacolor;
+
+  .intro {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .title {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 120px;
+    color: $blackcolor;
+    text-align: center;
+    line-height: 100px;
+    width: 100%;
+  }
+  .text {
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 30px;
+    color: $blackcolor;
+    display: inline-block;
+  }
+  .date {
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 30px;
+    color: #d42121;
+    display: inline-block;
+    float: right;
+  }
+  .box {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .case {
+    background-image: url(/images/case.png);
+    width: 294px;
+    height: 307px;
+  }
+  .prizes {
+    text-align: center;
+  }
+  .money {
+    font-family: 'mullerextra-bold', serif;
+    font-size: 100px;
+    color: $blackcolor;
+    text-shadow: 5px 4px 1px #126177;
+    line-height: 70px;
+  }
+  .rouble {
+    font-family: 'ptrouble', serif;
+    font-size: 40px;
+    margin-left: -10px;
+  }
+  .photocamera {
+    font-family: 'mullerblack-regular', serif;
+    font-size: 50px;
+    color: $blackcolor;
+    font-weight: 600;
+    text-shadow: 4px 3px 1px #126177;
+  }
+  .other {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 30px;
+    color: $blackcolor;
+  }
+  .fuji {
+    background-image: url(/images/fuji.png);
+    width: 274px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .click {
+    background-image: url(/images/click.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 106px;
+    margin: -40px auto;
+    cursor: pointer;
+  }
+}
+
+
+@media all and (max-width: 1168px) {
+  body {
+    .content {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+  header {
+    .case {
+      background-size: 95%;
+      background-repeat: no-repeat;
+      background-position: 50% 0%;
+    }
+    .prizes {
+      padding: 0 20px;
+    }
+    .money {
+      font-size: calc(100vw / 12);
+      line-height: 70px;
+    }
+    .rouble {
+      display: none;
+    }
+    .photocamera {
+      font-size: calc(100vw / 22);
+    }
+    .fuji {
+      background-size: 95%;
+    }
+    .click {
+      background-size: 80%;
+      margin: -90px auto;
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  header {
+    .title {
+      font-size: calc(100vw / 8);
+    }
+  }
+}
+
+@media all and (max-width: 800px) {
+  header {
+    padding-top: 40px;
+
+    .box {
+      margin: 80px auto;
+      display: block;
+    }
+    .case {
+      margin: auto;
+      background-size: 80%;
+    }
+    .fuji {
+      height: 190px;
+      margin: 40px auto;
+      background-size: 80%;
+    }
+    .click {
+      margin: -65px auto;
+    }
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   HEADER END   ///////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   TASKS START   //////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.tasks {
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -170px;
+    align-items: center;
+  }
+  .text {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 30px;
+    color: $blackcolor;
+    width: 50%;
+  }
+  .man {
+    background-image: url(/images/man.png);
+    width: 50%;
+    height: 472px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .message {
+    background-image: url(/images/bubble_man.png);
+    position: relative;
+    right: 155px;
+    bottom: 20px;
+    width: 277px;
+    height: 197px;
+    padding: 60px 30px;
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: $blackcolor;
+  }
+  .message_hide {
+    background-image: url(/images/bubble_man.png);
+    background-position: center;
+    background-repeat:  no-repeat;
+    width: 277px;
+    height: 197px;
+    padding: 65px 25px 65px 35px;
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: $blackcolor;
+    margin: auto;
+    display: none;
+  }
+}
+.tasks:before {
+  content: " ";
+  position: relative;
+  top: -220px;
+  width: 100%;
+  height: 221px;
+  background: url(/images/ragged_edge_1.png);
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+.tasks:after {
+  content: " ";
+  position: relative;
+  margin-top: -70px;
+  width: 100%;
+  top: 2px;
+  height: 114px;
+  background: url(/images/ragged_edge_3.png);
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+
+@media all and (max-width: 1200px) {
+  .tasks {
+    .flex {
+      padding: 0 20px;
+    }
+  }
+}
+
+@media all and (max-width: 1168px) {
+  .tasks {
+    .flex {
+      padding: 0;
+    }
+    .text {
+      width: 40%;
+      padding: 30px 60px 20px 0;
+    }
+    .man {
+      width: 60%;
+    }
+    .message {
+      right: 145px;
+      bottom: 60px;
+    }
+  }
+}
+
+@media all and (max-width: 950px) {
+  .tasks {
+    .text {
+      order: 2;
+      width: 100%;
+      padding: 40px 25px 55px;
+    }
+    .man {
+      display: none;
+    }
+    .message_hide {
+      display: block;
+      order: 1;
+    }
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   TASKS END   ////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   CONDITIONS START   /////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.conditions {
+  background-color: $seacolor;
+  padding-bottom: 100px;
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .telegram {
+    background-image: url(/images/telegram.png);
+    width: 35%;
+    height: 513px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .text_telegram {
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 15px;
+    color: $blackcolor;
+    width: 191px;
+    position: relative;
+    top: 125px;
+    left: 104px;
+  }
+  .box {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .message {
+    background-image: url(/images/message.png);
+    width: 430px;
+    height: 176px;
+    margin-left: -55px;
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 30px;
+    color: $blackcolor;
+    padding: 25px 30px 25px 95px;
+    text-align:  center;
+  }
+  .text {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 30px;
+    color: $blackcolor;
+    width: 100%;
+    padding: 0 0 0 24px;
+  }
+}
+
+
+@media all and (max-width: 1168px) {
+  .conditions {
+    .telegram {
+      width: 270px;
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .text_telegram {
+      left: 40px;
+    }
+    .message {
+      margin: 0;
+    }
+    .box {
+      display: inline-block;
+    }
+    .text {
+      padding: 15px 0 0 40px;
+      font-size: 25px;
+    }
+  }
+}
+
+@media all and (max-width: 855px) {
+  .conditions {
+    .flex {
+      display: block;
+    }
+    .message {
+      display: none;
+    }
+    .box {
+      width: 100%;
+    }
+    .text {
+      padding: 10px;
+    }
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   CONDITIONS END   ///////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   DROP_OUT START   ///////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.drop_out {
+  background-color: $bluecolor;
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    padding: 250px 0 0;
+  }
+  .woman {
+    background-image: url(/images/woman.png);
+    width: 50%;
+    height: 544px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 10;
+    margin-top: -30px;
+  }
+  .bubble {
+    background-image: url(/images/bubble_woman.png);
+    position: relative;
+    z-index: 1;
+    padding: 70px 165px 100px 65px;
+    right: 410px;
+    width: 499px;
+    height: 268px;
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: $blackcolor;
+  }
+  .bubble_hide {
+    background-image: url(/images/bubble_woman.png);
+    background-position: center;
+    background-repeat:  no-repeat;
+    width: 499px;
+    height: 268px;
+    padding: 70px 165px 100px 65px;
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: $blackcolor;
+    margin: 55px auto;
+    display: none;
+  }
+}
+
+
+@media all and (max-width: 1199px) {
+  .drop_out {
+    .flex {
+      padding: 0 15px;
+    }
+  }
+}
+
+@media all and (max-width: 1167px) {
+  .drop_out {
+    .flex {
+      padding: 0;
+    }
+  }
+}
+
+@media all and (max-width: 1010px) {
+  .drop_out {
+    padding-bottom: 30px;
+
+    .text {
+      order: 2;
+      padding: 0;
+      width: 100%;
+    }
+    .woman {
+      display: none;
+    }
+    .bubble_hide {
+      display: block;
+    }
+  }
+}
+
+@media all and (max-width: 540px) {
+  .drop_out {
+    .bubble_hide {
+      width: calc(100vw - 40px);
+      background-size: contain;
+      font-size: calc(100vw / 20);
+    }
+  }
+}
+
+@media all and (max-width: 406px) {
+  .drop_out {
+    .bubble_hide {
+      margin: 0;
+      padding: 75px 115px 90px 50px;
+    }
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   DROP_OUT END   /////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   JURY START   ///////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.jury {
+  background-color: $seacolor;
+  padding: 65px 0 0;
+
+  .headline {
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 30px;
+    color: $blackcolor;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  .cards {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .card {
+    display: inline-block;
+    width: 330px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .frame {
+    width: 196px;
+    height: 353px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto 15px;
+  }
+  .frame-1 {
+    background-image: url(/images/frame-1.png);
+  }
+  .frame-2 {
+    background-image: url(/images/frame-2.png);
+  }
+  .frame-3 {
+    background-image: url(/images/frame-3.png);
+  }
+  .photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: inherit;
+    height: inherit;
+    border-radius: 110px / 195px;
+  }
+  .photo-1 {
+    background-image: url(/images/zlobin.png);
+  }
+  .photo-2 {
+    background-image: url(/images/kiselev.png);
+  }
+  .photo-3 {
+    background-image: url(/images/zdor.png);
+  }
+  .name {
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 30px;
+    color: $blackcolor;
+  }
+  .about {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 18px;
+    color: $blackcolor;
+    padding: 0 40px;
+  }
+}
+.jury:after {
+  content: " ";
+  position: relative;
+  width: 100%;
+  top: 2px;
+  height: 221px;
+  background: url(/images/ragged_edge_1.png);
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+
+@media all and (max-width: 630px) {
+  .jury {
+
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   JURY END   /////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   PRIZES START   /////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.prizesss {
+  padding: 40px 0 0;
+
+  .headline {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 80px;
+    color: $blackcolor;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .point {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  .point-1 {
+    background-image: url(/images/first_place.png);
+  }
+  .point-2 {
+    background-image: url(/images/second_place.png);
+  }
+  .point-3 {
+    background-image: url(/images/third_place.png);
+  }
+  .point-4 {
+    background-image: url(/images/fourth_place.png);
+  }
+  img {
+    margin: 0 20px 0 40px;
+  }
+  .place {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 30px;
+  }
+  .text_prize {
+    font-family: 'mullerblack-regular', serif;
+    font-size: 55px;
+    color: $blackcolor;
+  }
+  .prize {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 28px;
+    color: $blackcolor;
+  }
+  //.prize {
+  //  width: 500px;
+  //  height: 140px;
+  //  background-size: contain;
+  //  background-repeat: no-repeat;
+  //  background-position: left;
+  //}
+  //.prize-1 {
+  //  background-image: url(/images/hundred_thousand.png);
+  //}
+  //.prize-2 {
+  //  background-image: url(/images/photocamera.png);
+  //}
+  //.prize-3 {
+  //  background-image: url(/images/twenty_thousand.png);
+  //}
+  //.prize-4 {
+  //  background-image: url(/images/five_thousand.png);
+  //}
+}
+.prizesss:after {
+  content: " ";
+  position: relative;
+  top: 2px;
+  width: 100%;
+  height: 127px;
+  background: url(/images/ragged_edge_3.png);
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+
+@media all and (max-width: 630px) {
+  .prizesss {
+
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   PRIZES END   ///////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   GIFT START   ///////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.present {
+    background-color: $seacolor;
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .text {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 30px;
+    color: $blackcolor;
+    width: 50%;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
+  .man_gift {
+    background-image: url(/images/man_gift.png);
+    width: 50%;
+    height: 627px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -170px;
+    position: relative;
+    z-index: 10;
+  }
+  .gift {
+    background-image: url(/images/gift.png);
+    width: 100%;
+    height: 187px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;
+  }
+}
+
+
+@media all and (max-width: 890px) {
+  .present {
+    .text {
+      width: 100%;
+      order: 2;
+    }
+    .man_gift {
+      display: none;
+    }
+    .gift {
+      display: block;
+      margin: 20px;
+    }
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   GIFT END   /////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   MAIN START   ///////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.main {
+  background-color: $bluecolor;
+  padding: 80px 0;
+  text-align: center;
+
+  .headline {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 80px;
+    color: white;
+    text-shadow: 5px 4px 1px #126177;
+  }
+  .text {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 30px;
+    color: white;
+  }
+  .bold {
+    font-family: 'robotocondensed-bolf', serif;
+    font-weight: bold;
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   MAIN END   /////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   STUDENT_WORK START   ///////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.student_work {
+  background-color: $seacolor;
+  padding: 90px 0 0;
+  text-align: center;
+
+  .headline {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 80px;
+    color: $blackcolor;
+    text-shadow: 5px 4px 1px #126177;
+    margin-bottom: 30px;
+  }
+  .frame_picture {
+    background-image: url(/images/frame_picture.png);
+    width: 655px;
+    height: 458px;
+    margin: auto;
+    position: relative;
+    z-index: 20;
+
+    .pic {
+      background-image: url(/images/pic.png);
+      background-position: center;
+      width: 630px;
+      height: 400px;
+      position: relative;
+      top: 50px;
+      left: 15px;
+      z-index: 0;
+    }
+  }
+  .note {
+    background-image: url(/images/note.png);
+    width: 256px;
+    height: 104px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 13px;
+  }
+  .name {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 18px;
+    color: $blackcolor;
+  }
+  .city {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 16px;
+    color: $blackcolor;
+  }
+  .mail {
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 16px;
+    color: $blackcolor;
+    font-weight: bold;
+  }
+}
+.student_work:after {
+  content: " ";
+  position: relative;
+  top: 2px;
+  width: 100%;
+  height: 221px;
+  background: url(/images/ragged_edge_1.png);
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
