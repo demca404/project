@@ -1736,7 +1736,7 @@ body .content {
 }
 
 header {
-  padding: 100px 0 150px;
+  padding: 100px 0 0;
   background-color: #a5e1f2;
 }
 
@@ -1777,13 +1777,7 @@ header .box {
   justify-content: space-around;
 }
 
-header .case {
-  background-image: url("../../../../images/case.png");
-  width: 294px;
-  height: 307px;
-}
-
-header .prizes {
+header .prizes_header {
   text-align: center;
 }
 
@@ -1815,21 +1809,45 @@ header .other {
   color: #161616;
 }
 
+header .flex {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: -215px;
+}
+
+header .pack {
+  background-image: url("../../../../images/pack.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: 100%;
+  width: 35%;
+  height: 415px;
+  position: relative;
+  left: -75px;
+  bottom: 100px;
+}
+
 header .fuji {
   background-image: url("../../../../images/fuji.png");
-  width: 274px;
-  height: auto;
+  width: 35%;
+  height: 415px;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 0%;
+  position: relative;
+  right: -60px;
+  bottom: 65px;
 }
 
 header .click {
   background-image: url("../../../../images/click.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  position: relative;
+  z-index: 5;
   width: 44px;
   height: 106px;
-  margin: -40px auto;
+  margin: 35px auto;
   cursor: pointer;
 }
 
@@ -1839,7 +1857,7 @@ header .click {
     padding: 0 20px;
   }
 
-  header .case {
+  header .pack {
     background-size: 95%;
     background-repeat: no-repeat;
     background-position: 50% 0%;
@@ -1888,7 +1906,7 @@ header .click {
     display: block;
   }
 
-  header .case {
+  header .pack {
     margin: auto;
     background-size: 80%;
   }
@@ -1902,6 +1920,11 @@ header .click {
   header .click {
     margin: -65px auto;
   }
+}
+
+.tasks {
+  background-color: white;
+  position: relative;
 }
 
 .tasks .flex {
@@ -2141,12 +2164,12 @@ header .click {
 
 .drop_out .woman {
   background-image: url("../../../../images/woman.png");
-  width: 50%;
   height: 544px;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   z-index: 10;
+  left: 65px;
   margin-top: -30px;
 }
 
@@ -2155,7 +2178,9 @@ header .click {
   position: relative;
   z-index: 1;
   padding: 70px 165px 100px 65px;
-  right: 410px;
+  right: 385px;
+  bottom: 545px;
+  margin-bottom: -268px;
   width: 499px;
   height: 268px;
   font-family: 'robotocondensed-bold', serif;
@@ -2205,6 +2230,10 @@ header .click {
   }
 
   .drop_out .woman {
+    display: none;
+  }
+
+  .drop_out .bubble {
     display: none;
   }
 
@@ -2261,6 +2290,8 @@ header .click {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto 15px;
+  position: relative;
+  z-index: 10;
 }
 
 .jury .frame-1 {
@@ -2279,8 +2310,31 @@ header .click {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: inherit;
-  height: inherit;
+  margin-bottom: -270px;
+  bottom: 305px;
+}
+
+.jury .width-1 {
+  width: 160px;
+  height: 260px;
+  position: relative;
+  left: 85px;
+  border-radius: 110px / 195px;
+}
+
+.jury .width-2 {
+  width: 140px;
+  height: 245px;
+  position: relative;
+  left: 95px;
+  border-radius: 110px / 195px;
+}
+
+.jury .width-3 {
+  width: 155px;
+  height: 250px;
+  position: relative;
+  left: 88px;
   border-radius: 110px / 195px;
 }
 
@@ -2321,11 +2375,11 @@ header .click {
   display: block;
 }
 
-.prizesss {
+.prizes {
   padding: 40px 0 0;
 }
 
-.prizesss .headline {
+.prizes .headline {
   font-family: 'mullerblack-italic', serif;
   font-size: 80px;
   color: #161616;
@@ -2333,54 +2387,55 @@ header .click {
   margin-bottom: 30px;
 }
 
-.prizesss .point {
+.prizes .point {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   width: 80px;
   height: 80px;
   margin-right: 20px;
+  margin-left: 140px;
 }
 
-.prizesss .point-1 {
+.prizes .point-1 {
   background-image: url("../../../../images/first_place.png");
 }
 
-.prizesss .point-2 {
+.prizes .point-2 {
   background-image: url("../../../../images/second_place.png");
 }
 
-.prizesss .point-3 {
+.prizes .point-3 {
   background-image: url("../../../../images/third_place.png");
 }
 
-.prizesss .point-4 {
+.prizes .point-4 {
   background-image: url("../../../../images/fourth_place.png");
 }
 
-.prizesss img {
+.prizes img {
   margin: 0 20px 0 40px;
 }
 
-.prizesss .place {
+.prizes .place {
   display: flex;
   align-items: center;
   margin: 0 auto 30px;
 }
 
-.prizesss .text_prize {
+.prizes .text_prize {
   font-family: 'mullerblack-regular', serif;
   font-size: 55px;
   color: #161616;
 }
 
-.prizesss .prize {
+.prizes .prize {
   font-family: 'robotocondensed-regular', serif;
   font-size: 28px;
   color: #161616;
 }
 
-.prizesss:after {
+.prizes:after {
   content: " ";
   position: relative;
   top: 2px;
@@ -2494,14 +2549,16 @@ header .click {
   z-index: 20;
 }
 
-.student_work .frame_picture .pic {
+.student_work .pic {
   background-image: url("../../../../images/pic.png");
   background-position: center;
+  background-repeat: no-repeat;
   width: 630px;
-  height: 400px;
+  height: 390px;
   position: relative;
-  top: 50px;
-  left: 15px;
+  bottom: 405px;
+  left: 270px;
+  margin-bottom: -375px;
   z-index: 0;
 }
 
@@ -2537,10 +2594,258 @@ header .click {
   content: " ";
   position: relative;
   top: 2px;
+  margin-top: -110px;
   width: 100%;
   height: 221px;
   background: url("../../../../images/ragged_edge_1.png");
   background-position: center;
   background-size: cover;
   display: block;
+}
+
+.who_i_am {
+  text-align: center;
+}
+
+.who_i_am .headline {
+  font-family: 'mullerblack-italic', serif;
+  font-size: 80px;
+  color: #161616;
+}
+
+.who_i_am .text {
+  font-family: 'robotocondensed-regular', serif;
+  font-size: 21px;
+  color: #161616;
+  padding: 0 220px;
+  margin-bottom: 40px;
+}
+
+.who_i_am .veil {
+  background-image: url("../../../../images/veil.png");
+  margin: 0 auto;
+  position: relative;
+  top: 25px;
+  right: 35px;
+  z-index: 5;
+  width: 282px;
+  height: 223px;
+}
+
+.who_i_am .veil_head {
+  background-image: url("../../../../images/veil_head.png");
+  margin: 0 auto;
+  position: relative;
+  margin-top: -320px;
+  top: 85px;
+  right: 25px;
+  z-index: 20;
+  width: 168px;
+  height: 86px;
+}
+
+.who_i_am .bg_gusev {
+  background-image: url("../../../../images/gusev.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 10;
+  height: 553px;
+  padding: 80px 0 0;
+}
+
+.who_i_am .facts {
+  position: relative;
+  width: 300px;
+  margin: auto;
+}
+
+.who_i_am p {
+  font-family: 'mullerblack-regular', serif;
+  font-size: 25px;
+  color: #161616;
+  width: 300px;
+  position: relative;
+  text-align: left;
+}
+
+.who_i_am p:nth-of-type(1) {
+  right: 200px;
+}
+
+.who_i_am p:nth-of-type(2) {
+  bottom: 90px;
+  left: 315px;
+}
+
+.who_i_am p:nth-of-type(3) {
+  bottom: 20px;
+  right: 325px;
+}
+
+.who_i_am p:nth-of-type(4) {
+  font-size: 50px;
+  bottom: 90px;
+  left: 305px;
+  text-shadow: 5px 4px 1px #9d9d9d;
+}
+
+.who_i_am p:nth-of-type(5) {
+  right: 240px;
+}
+
+.who_i_am p:nth-of-type(6) {
+  bottom: 53px;
+  left: 390px;
+}
+
+.who_i_am:after {
+  content: " ";
+  position: relative;
+  z-index: 50;
+  margin-top: -95px;
+  width: 100%;
+  top: 2px;
+  height: 114px;
+  background: url("../../../../images/ragged_edge_4.png");
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+.you_will_learn {
+  background-color: #2295b6;
+  padding: 50px 0 0;
+  text-align: center;
+}
+
+.you_will_learn .headline {
+  font-family: 'mullerextra-bold', serif;
+  font-size: 70px;
+  color: white;
+  text-shadow: 5px 4px 1px #116a83;
+}
+
+.you_will_learn .text {
+  font-family: 'mullerextra-bold', serif;
+  font-size: 50px;
+  color: white;
+}
+
+.how_it_works {
+  background-color: #a5e1f2;
+  padding: 90px 0 50px;
+  text-align: center;
+}
+
+.how_it_works .headline {
+  font-family: 'mullerblack-italic', serif;
+  font-size: 80px;
+  color: #161616;
+  text-shadow: 5px 4px 1px #66a7b9;
+  margin-bottom: 60px;
+}
+
+.how_it_works .cloud {
+  background-image: url("../../../../images/cloud.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 149px;
+  margin-bottom: 90px;
+}
+
+.how_it_works .cloud:nth-of-type(7) {
+  background-image: url("../../../../images/cloud_big.png");
+  background-position: center;
+  height: 196px;
+}
+
+.how_it_works .number {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: relative;
+  bottom: 25px;
+  width: 62px;
+  height: 57px;
+}
+
+.how_it_works .one {
+  background-image: url("../../../../images/one.png");
+}
+
+.how_it_works .two {
+  background-image: url("../../../../images/two.png");
+}
+
+.how_it_works .three {
+  background-image: url("../../../../images/three.png");
+}
+
+.how_it_works .four {
+  background-image: url("../../../../images/four.png");
+}
+
+.how_it_works .five {
+  background-image: url("../../../../images/five.png");
+}
+
+.how_it_works .six {
+  background-image: url("../../../../images/six.png");
+}
+
+.how_it_works .seven {
+  background-image: url("../../../../images/seven.png");
+}
+
+.how_it_works .text {
+  font-family: 'robotocondensed-regular', serif;
+  font-size: 21px;
+  color: #161616;
+  padding: 0 70px;
+  margin: -15px auto;
+}
+
+.how_it_works .tx7 {
+  font-family: 'robotocondensed-bold', serif;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0 370px;
+}
+
+.how_it_works .arrow {
+  background-image: url("../../../../images/arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 40px;
+  position: relative;
+  bottom: 90px;
+  right: 55px;
+}
+
+.how_it_works .arrow_reflect {
+  background-image: url("../../../../images/arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1, -1);
+  width: 90px;
+  height: 40px;
+  position: relative;
+  bottom: -35px;
+  right: 55px;
+}
+
+.value {
+  background-color: #f03c3c;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.value .headline {
+  font-family: 'mullerblack-italic', serif;
+  font-size: 80px;
+  color: white;
+  text-shadow: 5px 4px 1px #cf2121;
 }

@@ -75,7 +75,7 @@ body {
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 header {
-  padding: 100px 0 150px;
+  padding: 100px 0 0;
   background-color: $seacolor;
 
   .intro {
@@ -110,12 +110,7 @@ header {
     display: flex;
     justify-content: space-around;
   }
-  .case {
-    background-image: url(/images/case.png);
-    width: 294px;
-    height: 307px;
-  }
-  .prizes {
+  .prizes_header {
     text-align: center;
   }
   .money {
@@ -142,20 +137,42 @@ header {
     font-size: 30px;
     color: $blackcolor;
   }
+  .flex {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: -215px;
+  }
+  .pack {
+    background-image: url(/images/pack.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 100%;
+    width: 35%;
+    height: 415px;
+    position: relative;
+    left: -75px;
+    bottom: 100px;
+  }
   .fuji {
     background-image: url(/images/fuji.png);
-    width: 274px;
-    height: auto;
+    width: 35%;
+    height: 415px;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 0%;
+    position: relative;
+    right: -60px;
+    bottom: 65px;
   }
   .click {
     background-image: url(/images/click.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    position: relative;
+    z-index: 5;
     width: 44px;
     height: 106px;
-    margin: -40px auto;
+    margin: 35px auto;
     cursor: pointer;
   }
 }
@@ -169,7 +186,7 @@ header {
     }
   }
   header {
-    .case {
+    .pack {
       background-size: 95%;
       background-repeat: no-repeat;
       background-position: 50% 0%;
@@ -213,7 +230,7 @@ header {
       margin: 80px auto;
       display: block;
     }
-    .case {
+    .pack {
       margin: auto;
       background-size: 80%;
     }
@@ -238,6 +255,9 @@ header {
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 .tasks {
+  background-color: white;
+  position: relative;
+
   .flex {
     display: flex;
     flex-wrap: wrap;
@@ -479,12 +499,12 @@ header {
   }
   .woman {
     background-image: url(/images/woman.png);
-    width: 50%;
     height: 544px;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     z-index: 10;
+    left: 65px;
     margin-top: -30px;
   }
   .bubble {
@@ -492,7 +512,9 @@ header {
     position: relative;
     z-index: 1;
     padding: 70px 165px 100px 65px;
-    right: 410px;
+    right: 385px;
+    bottom: 545px;
+    margin-bottom: -268px;
     width: 499px;
     height: 268px;
     font-family: 'robotocondensed-bold', serif;
@@ -545,6 +567,9 @@ header {
       width: 100%;
     }
     .woman {
+      display: none;
+    }
+    .bubble {
       display: none;
     }
     .bubble_hide {
@@ -610,6 +635,8 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto 15px;
+    position: relative;
+    z-index: 10;
   }
   .frame-1 {
     background-image: url(/images/frame-1.png);
@@ -624,8 +651,28 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: inherit;
-    height: inherit;
+    margin-bottom: -270px;
+    bottom: 305px;
+  }
+  .width-1 {
+    width: 160px;
+    height: 260px;
+    position: relative;
+    left: 85px;
+    border-radius: 110px / 195px;
+  }
+  .width-2 {
+    width: 140px;
+    height: 245px;
+    position: relative;
+    left: 95px;
+    border-radius: 110px / 195px;
+  }
+  .width-3 {
+    width: 155px;
+    height: 250px;
+    position: relative;
+    left: 88px;
     border-radius: 110px / 195px;
   }
   .photo-1 {
@@ -677,7 +724,7 @@ header {
 //////////////////////////////////   PRIZES START   /////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-.prizesss {
+.prizes {
   padding: 40px 0 0;
 
   .headline {
@@ -694,6 +741,7 @@ header {
     width: 80px;
     height: 80px;
     margin-right: 20px;
+    margin-left: 140px;
   }
   .point-1 {
     background-image: url(/images/first_place.png);
@@ -725,27 +773,8 @@ header {
     font-size: 28px;
     color: $blackcolor;
   }
-  //.prize {
-  //  width: 500px;
-  //  height: 140px;
-  //  background-size: contain;
-  //  background-repeat: no-repeat;
-  //  background-position: left;
-  //}
-  //.prize-1 {
-  //  background-image: url(/images/hundred_thousand.png);
-  //}
-  //.prize-2 {
-  //  background-image: url(/images/photocamera.png);
-  //}
-  //.prize-3 {
-  //  background-image: url(/images/twenty_thousand.png);
-  //}
-  //.prize-4 {
-  //  background-image: url(/images/five_thousand.png);
-  //}
 }
-.prizesss:after {
+.prizes:after {
   content: " ";
   position: relative;
   top: 2px;
@@ -759,7 +788,7 @@ header {
 
 
 @media all and (max-width: 630px) {
-  .prizesss {
+  .prizes {
 
   }
 }
@@ -885,17 +914,18 @@ header {
     margin: auto;
     position: relative;
     z-index: 20;
-
-    .pic {
-      background-image: url(/images/pic.png);
-      background-position: center;
-      width: 630px;
-      height: 400px;
-      position: relative;
-      top: 50px;
-      left: 15px;
-      z-index: 0;
-    }
+  }
+  .pic {
+    background-image: url(/images/pic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 390px;
+    position: relative;
+    bottom: 405px;
+    left: 270px;
+    margin-bottom: -375px;
+    z-index: 0;
   }
   .note {
     background-image: url(/images/note.png);
@@ -926,6 +956,7 @@ header {
   content: " ";
   position: relative;
   top: 2px;
+  margin-top: -110px;
   width: 100%;
   height: 221px;
   background: url(/images/ragged_edge_1.png);
@@ -933,4 +964,266 @@ header {
   background-size: cover;
   display: block;
 }
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   STUDENT_WORK END   /////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   WHO_I_AM START   ///////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.who_i_am {
+  text-align: center;
+
+  .headline {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 80px;
+    color: $blackcolor;
+  }
+  .text{
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 21px;
+    color: $blackcolor;
+    padding: 0 220px;
+    margin-bottom: 40px;
+  }
+  .veil {
+    background-image: url(/images/veil.png);
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    right: 35px;
+    z-index: 5;
+    width: 282px;
+    height: 223px;
+  }
+  .veil_head {
+    background-image: url(/images/veil_head.png);
+    margin: 0 auto;
+    position: relative;
+    margin-top: -320px;
+    top: 85px;
+    right: 25px;
+    z-index: 20;
+    width: 168px;
+    height: 86px;
+  }
+  .bg_gusev{
+    background-image: url(/images/gusev.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 10;
+    height: 553px;
+    padding: 80px 0 0;
+  }
+  .facts {
+    position: relative;
+    width: 300px;
+    margin: auto;
+  }
+  p {
+    font-family: 'mullerblack-regular', serif;
+    font-size: 25px;
+    color: $blackcolor;
+    width: 300px;
+    position: relative;
+    text-align: left;
+
+    &:nth-of-type(1){
+      right: 200px;
+    }
+    &:nth-of-type(2){
+      bottom: 90px;
+      left: 315px;
+    }
+    &:nth-of-type(3){
+      bottom: 20px;
+      right: 325px;
+    }
+    &:nth-of-type(4){
+      font-size: 50px;
+      bottom: 90px;
+      left: 305px;
+      text-shadow: 5px 4px 1px #9d9d9d;
+    }
+    &:nth-of-type(5){
+      right: 240px;
+    }
+    &:nth-of-type(6){
+      bottom: 53px;
+      left: 390px;
+    }
+  }
+}
+.who_i_am:after {
+  content: " ";
+  position: relative;
+  z-index: 50;
+  margin-top: -95px;
+  width: 100%;
+  top: 2px;
+  height: 114px;
+  background: url(/images/ragged_edge_4.png);
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   WHO_I_AM END   /////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   YOU_WILL_LEARN START   /////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.you_will_learn {
+  background-color: #2295b6;
+  padding: 50px 0 0;
+  text-align: center;
+
+  .headline {
+    font-family: 'mullerextra-bold', serif;
+    font-size: 70px;
+    color: white;
+    text-shadow: 5px 4px 1px #116a83;
+  }
+  .text {
+    font-family: 'mullerextra-bold', serif;
+    font-size: 50px;
+    color: white;
+  }
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   YOU_WILL_LEARN END   ///////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   HOW_IT_WORKS START   ///////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.how_it_works {
+  background-color: $seacolor;
+  padding: 90px 0 50px;
+  text-align: center;
+
+  .headline {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 80px;
+    color: $blackcolor;
+    text-shadow: 5px 4px 1px #66a7b9;
+    margin-bottom: 60px;
+  }
+  .cloud {
+    background-image: url(/images/cloud.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 149px;
+    margin-bottom: 90px;
+
+    &:nth-of-type(7) {
+      background-image: url(/images/cloud_big.png);
+      background-position: center;
+      height: 196px;
+    }
+  }
+  .number {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+    width: 62px;
+    height: 57px;
+  }
+  .one {
+    background-image: url(/images/one.png);
+  }
+  .two {
+    background-image: url(/images/two.png);
+  }
+  .three {
+    background-image: url(/images/three.png);
+  }
+  .four {
+    background-image: url(/images/four.png);
+  }
+  .five {
+    background-image: url(/images/five.png);
+  }
+  .six {
+    background-image: url(/images/six.png);
+  }
+  .seven {
+    background-image: url(/images/seven.png);
+  }
+  .text {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 21px;
+    color: $blackcolor;
+    padding: 0 70px;
+    margin: -15px auto;
+  }
+  .tx7 {
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 370px;
+  }
+  .arrow {
+    background-image: url(/images/arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 40px;
+    position: relative;
+    bottom: 90px;
+    right: 55px;
+  }
+  .arrow_reflect {
+    background-image: url(/images/arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1, -1);
+    width: 90px;
+    height: 40px;
+    position: relative;
+    bottom: -35px;
+    right: 55px;
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   HOW_IT_WORKS END   /////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   VALUE START   //////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.value {
+  background-color: #f03c3c;
+  padding: 90px 0;
+  text-align: center;
+
+  .headline {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 80px;
+    color: white;
+    text-shadow: 5px 4px 1px #cf2121;
+  }
+}
+
+
 
