@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    $(".icon").click(function () {
-        $(".icon").css({
-            "background-image": 'url(/images/icon_x.png)'
+    $(".arrow_triangle").click(function () {
+        $(".arrow_triangle").css({
+            transform: 'rotate(90deg)'
         });
-        $(".hide_menu").slideToggle(300);
+        $(".answer").slideToggle(300);
         $(".field").show();
     });
     $(".field").click(function () {

@@ -1209,10 +1209,212 @@ header {
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////   VALUE START   //////////////////////////////////////////////
+//////////////////////////////////   PRICE START   //////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-.value {
+.price {
+  background-color: #f03c3c;
+  padding: 90px 0 140px;
+  text-align: center;
+
+  .headline {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 80px;
+    color: white;
+    text-shadow: 5px 4px 1px #cf2121;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .value {
+    width: 20%;
+  }
+  .outline {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 26px;
+    position: relative;
+    top: 22px;
+    left: 9px;
+  }
+  .outline-1 {
+    background-image: url(/images/outline-1.png);
+  }
+  .outline-2 {
+    background-image: url(/images/outline-2.png);
+  }
+  .outline-3 {
+    background-image: url(/images/outline-3.png);
+  }
+  .outline-4 {
+    background-image: url(/images/outline-4.png);
+  }
+  .outline-5 {
+    background-image: url(/images/outline-5.png);
+  }
+  .icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20px;
+  }
+  .icon-1 {
+    background-image: url(/images/icon-1.png);
+  }
+  .icon-2 {
+    background-image: url(/images/icon-2.png);
+  }
+  .icon-3 {
+    background-image: url(/images/icon-3.png);
+  }
+  .icon-4 {
+    background-image: url(/images/icon-4.png);
+  }
+  .icon-5 {
+    background-image: url(/images/icon-5.png);
+  }
+  .name {
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 30px;
+    color: white;
+    margin: 15px auto;
+  }
+  .underline {
+    background-image: url(/images/underline.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 9px;
+    margin: 0 0 10px 10px;
+  }
+  .cost {
+    font-family: 'mullerblack-regular', serif;
+    font-size: 45px;
+    color: white;
+    margin-left: 15px;
+  }
+  .rouble {
+    font-family: 'ptrouble', serif;
+    font-size: 30px;
+    color: white;
+  }
+  .text {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 18px;
+    color: white;
+    width: 175px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  button {
+    background-image: url(/images/button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    width: 177px;
+    height: 73px;
+    font-family: 'mullerextra-bold', serif;
+    font-size: 25px;
+    color: $blackcolor;
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   PRICE START   //////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   QUESTION START   ///////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.question {
+  background-color: $seacolor;
+  padding: 70px 0 100px;
+
+  .headline {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 78px;
+    color: $blackcolor;
+    text-shadow: 5px 4px 1px #65a7b9;
+    text-align: center;
+  }
+  .flex_container {
+    display: flex;
+    width: 100%;
+  }
+  .question_pack {
+    width: 33%;
+    margin: 50px 35px 0 0;
+  }
+  .name {
+    background-image: url(/images/bg_question.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 365px;
+    height: 82px;
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 365px;
+    padding: 0 10px 0 0;
+  }
+  .bg_color {
+    background-color: #93cad9;
+  }
+  .issue {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 18px;
+    color: $blackcolor;
+    padding: 20px 20px;
+    width: calc(100% - 27px);
+  }
+  .bg_issue {
+    background-color: #93cad9;
+  }
+  .arrow_triangle {
+    background-image: url(/images/arrow_triangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 27px;
+    float: right;
+  }
+  .answer {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 16px;
+    color: $blackcolor;
+    display: none;
+    background-color: white;
+    padding: 20px 16px;
+    width: 365px;
+    background-image: url(/images/line.png);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   QUESTION END   /////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   SHOULD_I_GO START   ////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.should_i_go {
   background-color: #f03c3c;
   padding: 90px 0;
   text-align: center;
@@ -1221,7 +1423,111 @@ header {
     font-family: 'mullerblack-italic', serif;
     font-size: 80px;
     color: white;
-    text-shadow: 5px 4px 1px #cf2121;
+    margin: 0 auto 50px;
+  }
+  .duck {
+    background-image: url(/images/duck.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    height: 520px;
+  }
+  .duck_say {
+    background-image: url(/images/duck_say.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 402px;
+    height: 233px;
+    position: relative;
+    left: 420px;
+    top: 40px;
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 18px;
+    color: $blackcolor;
+    padding: 80px 52px 0 85px;
+  }
+  .exclamation {
+    background-image: url(/images/exclamation.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 685px;
+    height: 197px;
+    position: relative;
+    top: 90px;
+    left: 480px;
+    font-family: 'muller-heavy', serif;
+    font-size: 25px;
+    color: $blackcolor;
+    padding: 100px;
+  }
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   SHOULD_I_GO END   //////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////   PARTNERS START   ///////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+.partners {
+  background-color: $seacolor;
+  padding: 90px 0;
+  text-align: center;
+
+  .headline {
+    font-family: 'mullerblack-italic', serif;
+    font-size: 80px;
+    color: $blackcolor;
+    text-shadow: 5px 4px 1px #5fa6ba;
+  }
+  .logotypes {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 70px;
+  }
+  .logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    height: 190px;
+  }
+  .logotype-1 {
+    background-image: url(/images/logotype-1.png);
+  }
+  .logotype-2 {
+    background-image: url(/images/logotype-2.png);
+  }
+  .logotype-3 {
+    background-image: url(/images/logotype-3.png);
+  }
+  .line_partners {
+    background-image: url(/images/line_partners.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 17px;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    font-family: 'robotocondensed-bold', serif;
+    font-size: 21px;
+    color: $blackcolor;
+    margin: 30px;
+    text-decoration: underline;
+
+    &:hover {
+      color: $bluecolor;
+    }
+  }
+  .copyright {
+    font-family: 'robotocondensed-regular', serif;
+    font-size: 16px;
+    color: $blackcolor;
   }
 }
 

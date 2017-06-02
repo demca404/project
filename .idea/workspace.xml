@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0015ef-4068-4162-bba4-9ed46005600a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/case.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/fuji.png" afterPath="$PROJECT_DIR$/public/images/fuji.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/pic.png" afterPath="$PROJECT_DIR$/public/images/pic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/muller-heavy-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/muller-heavy-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/muller-heavy-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/muller-heavy-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/mullerblack-italic-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/mullerblack-italic-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/mullerblack-italic-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/mullerblack-italic-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/mullerblack-regular-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/mullerblack-regular-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/mullerblack-regular-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/mullerblack-regular-webfont.woff2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/script.js" afterPath="$PROJECT_DIR$/public/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/style.css" afterPath="$PROJECT_DIR$/public/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_dev/js/custom/script.js" afterPath="$PROJECT_DIR$/public_dev/js/custom/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_dev/scss/custom/style.scss" afterPath="$PROJECT_DIR$/public_dev/scss/custom/style.scss" />
     </list>
     <ignored path="pika_pika.iws" />
@@ -32,8 +37,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="251" column="7" selection-start-line="251" selection-start-column="7" selection-end-line="251" selection-end-column="7" />
+            <state relative-caret-position="368">
+              <caret line="573" column="76" selection-start-line="573" selection-start-column="76" selection-end-line="573" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -62,8 +67,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_dev/scss/custom/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="1226" column="0" selection-start-line="1226" selection-start-column="0" selection-end-line="1226" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="1529" column="23" selection-start-line="1529" selection-start-column="23" selection-end-line="1529" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -72,8 +77,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="85">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -88,10 +93,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public_dev/scss/vendor/_variables.scss" />
-        <option value="$PROJECT_DIR$/public_dev/js/custom/script.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public_dev/js/custom/script.js" />
         <option value="$PROJECT_DIR$/public_dev/scss/custom/style.scss" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -141,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,6 +279,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,11 +429,13 @@
       <workItem from="1496147595158" duration="23726000" />
       <workItem from="1496172473681" duration="113000" />
       <workItem from="1496172796796" duration="7093000" />
+      <workItem from="1496245300455" duration="5976000" />
+      <workItem from="1496264651795" duration="12941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458014000" />
+    <option name="totallyTimeSpent" value="476931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -753,14 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5508">
@@ -777,18 +776,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public_dev/scss/custom/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="1226" column="0" selection-start-line="1226" selection-start-column="0" selection-end-line="1226" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="1529" column="23" selection-start-line="1529" selection-start-column="23" selection-end-line="1529" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="251" column="7" selection-start-line="251" selection-start-column="7" selection-end-line="251" selection-end-column="7" />
+        <state relative-caret-position="368">
+          <caret line="573" column="76" selection-start-line="573" selection-start-column="76" selection-end-line="573" selection-end-column="76" />
           <folding />
         </state>
       </provider>
