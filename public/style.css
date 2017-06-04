@@ -1956,7 +1956,7 @@ header .click {
   bottom: 20px;
   width: 277px;
   height: 197px;
-  padding: 60px 30px;
+  padding: 65px 20px 65px 44px;
   font-family: 'robotocondensed-regular', serif;
   font-size: 30px;
   line-height: 30px;
@@ -1970,7 +1970,7 @@ header .click {
   background-repeat: no-repeat;
   width: 277px;
   height: 197px;
-  padding: 65px 25px 65px 35px;
+  padding: 65px 20px 65px 44px;
   font-family: 'robotocondensed-regular', serif;
   font-size: 30px;
   line-height: 30px;
@@ -2433,6 +2433,8 @@ header .click {
   font-family: 'robotocondensed-regular', serif;
   font-size: 28px;
   color: #161616;
+  width: 500px;
+  line-height: 30px;
 }
 
 .prizes:after {
@@ -2748,6 +2750,25 @@ header .click {
 
 .you_will_learn .t1 {
   display: block;
+}
+
+.you_will_learn .navigation {
+  position: relative;
+  top: 235px;
+  padding: 0 170px;
+}
+
+.you_will_learn .prew {
+  position: relative;
+  transform: rotate(180deg);
+  float: left;
+  cursor: pointer;
+}
+
+.you_will_learn .next {
+  position: relative;
+  float: right;
+  cursor: pointer;
 }
 
 .you_will_learn .slider {
@@ -3083,7 +3104,7 @@ header .click {
   cursor: pointer;
 }
 
-.question .bg_color {
+.question .flex_question:nth-of-type(odd) {
   background-color: #93cad9;
 }
 
@@ -3107,6 +3128,7 @@ header .click {
   height: 27px;
   margin-right: 10px;
   float: right;
+  transition-duration: 0.3s;
 }
 
 .question .answer {
@@ -3156,7 +3178,7 @@ header .click {
   font-family: 'robotocondensed-regular', serif;
   font-size: 18px;
   color: #161616;
-  padding: 80px 52px 0 85px;
+  padding: 80px 35px 0 65px;
 }
 
 .should_i_go .exclamation {

@@ -284,7 +284,7 @@ header {
     bottom: 20px;
     width: 277px;
     height: 197px;
-    padding: 60px 30px;
+    padding: 65px 20px 65px 44px;
     font-family: 'robotocondensed-regular', serif;
     font-size: 30px;
     line-height: 30px;
@@ -297,7 +297,7 @@ header {
     background-repeat:  no-repeat;
     width: 277px;
     height: 197px;
-    padding: 65px 25px 65px 35px;
+    padding: 65px 20px 65px 44px;
     font-family: 'robotocondensed-regular', serif;
     font-size: 30px;
     line-height: 30px;
@@ -772,6 +772,8 @@ header {
     font-family: 'robotocondensed-regular', serif;
     font-size: 28px;
     color: $blackcolor;
+    width: 500px;
+    line-height: 30px;
   }
 }
 .prizes:after {
@@ -1112,7 +1114,22 @@ header {
   .t1 {
     display: block;
   }
-
+  .navigation {
+    position: relative;
+    top: 235px;
+    padding: 0 170px;
+  }
+  .prew {
+    position: relative;
+    transform: rotate(180deg);
+    float: left;
+    cursor: pointer;
+  }
+  .next {
+    position: relative;
+    float: right;
+    cursor: pointer;
+  }
   .slider {
     position:relative;
     width: 700px;
@@ -1435,9 +1452,10 @@ header {
     align-items: center;
     width: 365px;
     cursor: pointer;
-  }
-  .bg_color {
-    background-color: #93cad9;
+
+    &:nth-of-type(odd){
+      background-color: #93cad9;
+    }
   }
   .issue {
     font-family: 'robotocondensed-regular', serif;
@@ -1457,6 +1475,7 @@ header {
     height: 27px;
     margin-right: 10px;
     float: right;
+    transition-duration: 0.3s;
   }
   .answer {
     font-family: 'robotocondensed-regular', serif;
@@ -1512,7 +1531,7 @@ header {
     font-family: 'robotocondensed-regular', serif;
     font-size: 18px;
     color: $blackcolor;
-    padding: 80px 52px 0 85px;
+    padding: 80px 35px 0 65px;
   }
   .exclamation {
     background-image: url(/images/exclamation.png);
