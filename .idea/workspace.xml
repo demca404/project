@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0015ef-4068-4162-bba4-9ed46005600a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/muller-heavy-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/muller-heavy-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/muller-heavy-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/muller-heavy-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/mullerblack-italic-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/mullerblack-italic-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/mullerblack-italic-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/mullerblack-italic-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/mullerblack-regular-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/mullerblack-regular-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/mullerblack-regular-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/mullerblack-regular-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/robotocondensed-bold-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-bold-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/robotocondensed-bold-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-bold-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/robotocondensed-regular-webfont.woff" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-regular-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/fonts/robotocondensed-regular-webfont.woff2" afterPath="$PROJECT_DIR$/public/fonts/robotocondensed-regular-webfont.woff2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/script.js" afterPath="$PROJECT_DIR$/public/script.js" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="573" column="76" selection-start-line="573" selection-start-column="76" selection-end-line="573" selection-end-column="76" />
+            <state relative-caret-position="270">
+              <caret line="210" column="25" selection-start-line="210" selection-start-column="25" selection-end-line="210" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -47,8 +45,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5508">
-              <caret line="324" column="44" selection-start-line="324" selection-start-column="40" selection-end-line="324" selection-end-column="44" />
+            <state relative-caret-position="167">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,8 +55,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public_dev/scss/custom/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16167">
-              <caret line="951" column="11" selection-start-line="951" selection-start-column="8" selection-end-line="951" selection-end-column="11" />
+            <state relative-caret-position="-938">
+              <caret line="731" column="21" selection-start-line="731" selection-start-column="21" selection-end-line="731" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -67,8 +65,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_dev/scss/custom/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="1529" column="23" selection-start-line="1529" selection-start-column="23" selection-end-line="1529" selection-end-column="23" />
+            <state relative-caret-position="252">
+              <caret line="1120" column="3" selection-start-line="1120" selection-start-column="3" selection-end-line="1120" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -77,8 +75,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -278,8 +276,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,33 +429,36 @@
       <workItem from="1496172796796" duration="7093000" />
       <workItem from="1496245300455" duration="5976000" />
       <workItem from="1496264651795" duration="12941000" />
+      <workItem from="1496437526774" duration="576000" />
+      <workItem from="1496531323232" duration="19587000" />
+      <workItem from="1496598558721" duration="10061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="476931000" />
+    <option name="totallyTimeSpent" value="507155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -490,22 +491,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public_dev/scss/custom/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15487">
-          <caret line="911" column="33" selection-start-line="911" selection-start-column="33" selection-end-line="911" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_dev/scss/custom/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11662">
-          <caret line="686" column="1" selection-start-line="686" selection-start-column="1" selection-end-line="686" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -760,42 +745,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5508">
-          <caret line="324" column="44" selection-start-line="324" selection-start-column="40" selection-end-line="324" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public_dev/scss/custom/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16167">
-          <caret line="951" column="11" selection-start-line="951" selection-start-column="8" selection-end-line="951" selection-end-column="11" />
+        <state relative-caret-position="-938">
+          <caret line="731" column="21" selection-start-line="731" selection-start-column="21" selection-end-line="731" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
+    <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="167">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/-/sites_/pika_pika - 2 corporate-landing/public_dev/js/custom/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public_dev/js/custom/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_dev/scss/custom/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="1529" column="23" selection-start-line="1529" selection-start-column="23" selection-end-line="1529" selection-end-column="23" />
+        <state relative-caret-position="252">
+          <caret line="1120" column="3" selection-start-line="1120" selection-start-column="3" selection-end-line="1120" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="573" column="76" selection-start-line="573" selection-start-column="76" selection-end-line="573" selection-end-column="76" />
+        <state relative-caret-position="270">
+          <caret line="210" column="25" selection-start-line="210" selection-start-column="25" selection-end-line="210" selection-end-column="25" />
           <folding />
         </state>
       </provider>
