@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0015ef-4068-4162-bba4-9ed46005600a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/outline-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/outline-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/outline-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/outline-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/outline-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/pic.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/icon-1.png" afterPath="$PROJECT_DIR$/public/images/icon-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/icon-2.png" afterPath="$PROJECT_DIR$/public/images/icon-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/icon-3.png" afterPath="$PROJECT_DIR$/public/images/icon-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/icon-4.png" afterPath="$PROJECT_DIR$/public/images/icon-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/icon-5.png" afterPath="$PROJECT_DIR$/public/images/icon-5.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/script.js" afterPath="$PROJECT_DIR$/public/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/style.css" afterPath="$PROJECT_DIR$/public/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_dev/js/custom/script.js" afterPath="$PROJECT_DIR$/public_dev/js/custom/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_dev/scss/custom/style.scss" afterPath="$PROJECT_DIR$/public_dev/scss/custom/style.scss" />
     </list>
     <ignored path="pika_pika.iws" />
@@ -26,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="331" column="26" selection-start-line="331" selection-start-column="26" selection-end-line="331" selection-end-column="26" />
+            <state relative-caret-position="462">
+              <caret line="346" column="49" selection-start-line="346" selection-start-column="49" selection-end-line="346" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -39,7 +53,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="561">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
@@ -49,7 +63,7 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public_dev/scss/custom/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-938">
+            <state relative-caret-position="12427">
               <caret line="731" column="21" selection-start-line="731" selection-start-column="21" selection-end-line="731" selection-end-column="21" />
               <folding />
             </state>
@@ -59,18 +73,18 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_dev/scss/custom/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="1458" column="3" selection-start-line="1458" selection-start-column="3" selection-end-line="1458" selection-end-column="3" />
+            <state relative-caret-position="150">
+              <caret line="760" column="3" selection-start-line="760" selection-start-column="3" selection-end-line="760" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="8" />
+            <state relative-caret-position="102">
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -87,8 +101,8 @@
         <option value="$PROJECT_DIR$/public_dev/scss/vendor/_variables.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/public_dev/js/custom/script.js" />
-        <option value="$PROJECT_DIR$/public_dev/scss/custom/style.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public_dev/scss/custom/style.scss" />
       </list>
     </option>
   </component>
@@ -270,8 +284,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,7 +294,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
@@ -426,11 +440,14 @@
       <workItem from="1496437526774" duration="576000" />
       <workItem from="1496531323232" duration="19587000" />
       <workItem from="1496598558721" duration="15583000" />
+      <workItem from="1496669538601" duration="7565000" />
+      <workItem from="1496701553708" duration="615000" />
+      <workItem from="1496774601221" duration="17851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="512677000" />
+    <option name="totallyTimeSpent" value="538708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -732,16 +749,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public_dev/scss/custom/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-938">
+        <state relative-caret-position="12427">
           <caret line="731" column="21" selection-start-line="731" selection-start-column="21" selection-end-line="731" selection-end-column="21" />
           <folding />
         </state>
@@ -749,7 +759,7 @@
     </entry>
     <entry file="file://D:/-/sites_/pika_pika - 3 MoGo/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="561">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
@@ -759,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,30 +776,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="331" column="26" selection-start-line="331" selection-start-column="26" selection-end-line="331" selection-end-column="26" />
+        <state relative-caret-position="-153">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_dev/scss/custom/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="1458" column="3" selection-start-line="1458" selection-start-column="3" selection-end-line="1458" selection-end-column="3" />
+        <state relative-caret-position="150">
+          <caret line="760" column="3" selection-start-line="760" selection-start-column="3" selection-end-line="760" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_dev/js/custom/script.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="462">
+          <caret line="346" column="49" selection-start-line="346" selection-start-column="49" selection-end-line="346" selection-end-column="49" />
           <folding />
         </state>
       </provider>

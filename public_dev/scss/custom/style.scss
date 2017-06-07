@@ -269,6 +269,7 @@ header {
     font-size: 30px;
     color: $blackcolor;
     width: 50%;
+    line-height: 38px;
   }
   .man {
     background-image: url(/images/man.png);
@@ -422,7 +423,8 @@ header {
     font-family: 'robotocondensed-bold', serif;
     font-size: 30px;
     color: $blackcolor;
-    padding: 25px 30px 25px 95px;
+    padding: 40px 30px 25px 95px;
+    line-height: 34px;
     text-align:  center;
   }
   .text {
@@ -431,6 +433,10 @@ header {
     color: $blackcolor;
     width: 100%;
     padding: 0 0 0 24px;
+  }
+  p {
+    line-height: 37px;
+    margin-bottom: 27px;
   }
 }
 
@@ -497,6 +503,10 @@ header {
     width: 50%;
     padding: 250px 0 0;
   }
+  p {
+    line-height: 38px;
+    margin-bottom: 22px;
+  }
   .woman {
     background-image: url(/images/woman.png);
     height: 544px;
@@ -519,7 +529,7 @@ header {
     height: 268px;
     font-family: 'robotocondensed-bold', serif;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
     text-align: center;
     color: $blackcolor;
   }
@@ -532,7 +542,7 @@ header {
     padding: 70px 165px 100px 65px;
     font-family: 'robotocondensed-bold', serif;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
     text-align: center;
     color: $blackcolor;
     margin: 55px auto;
@@ -617,6 +627,7 @@ header {
     width: 600px;
     margin: auto;
     text-align: center;
+    line-height: 38px;
   }
   .cards {
     margin-top: 30px;
@@ -627,6 +638,9 @@ header {
     width: 330px;
     height: 400px;
     margin: 0 auto;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
   }
   .frame {
     width: 196px;
@@ -634,7 +648,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0 auto 15px;
+    margin: 0 auto 20px;
     position: relative;
     z-index: 10;
   }
@@ -652,7 +666,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: -270px;
-    bottom: 305px;
+    bottom: 310px;
   }
   .width-1 {
     width: 160px;
@@ -688,12 +702,14 @@ header {
     font-family: 'robotocondensed-bold', serif;
     font-size: 30px;
     color: $blackcolor;
+    margin-bottom: 3px;
   }
   .about {
     font-family: 'robotocondensed-regular', serif;
     font-size: 18px;
     color: $blackcolor;
     padding: 0 40px;
+    line-height: 23px;
   }
 }
 .jury:after {
@@ -741,7 +757,7 @@ header {
     width: 80px;
     height: 80px;
     margin-right: 20px;
-    margin-left: 140px;
+    margin-left: 180px;
   }
   .point-1 {
     background-image: url(/images/first_place.png);
@@ -761,7 +777,12 @@ header {
   .place {
     display: flex;
     align-items: center;
-    margin: 0 auto 30px;
+    margin: 0 auto 40px;
+    height: 170px;
+
+    &:nth-of-type(5){
+      height: 150px;
+    }
   }
   .text_prize {
     font-family: 'mullerblack-regular', serif;
@@ -773,7 +794,7 @@ header {
     font-size: 28px;
     color: $blackcolor;
     width: 500px;
-    line-height: 30px;
+    line-height: 35px;
   }
 }
 .prizes:after {
@@ -819,6 +840,7 @@ header {
     width: 50%;
     padding-right: 20px;
     margin-bottom: 30px;
+    line-height: 42px;
   }
   .man_gift {
     background-image: url(/images/man_gift.png);
@@ -881,6 +903,7 @@ header {
     font-family: 'robotocondensed-regular', serif;
     font-size: 30px;
     color: white;
+    line-height: 41px;
   }
   .bold {
     font-family: 'robotocondensed-bold', serif;
@@ -906,36 +929,99 @@ header {
     font-family: 'mullerblack-italic', serif;
     font-size: 80px;
     color: $blackcolor;
-    text-shadow: 5px 4px 1px #126177;
+    text-shadow: 4px 4px 1px #57a0b5;
     margin-bottom: 30px;
   }
-  .frame_picture {
-    background-image: url(/images/frame_picture.png);
+  .navigation_photo {
+    position: relative;
+    top: 235px;
+    padding: 0 170px;
+  }
+  .prew {
+    position: relative;
+    transform: rotate(180deg);
+    float: left;
+    cursor: pointer;
+  }
+  .next {
+    position: relative;
+    float: right;
+    cursor: pointer;
+  }
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-inner {
+    overflow: hidden;
     width: 655px;
+    height: 620px;
+  }
+  .frame_photo {
+    background-image: url(/images/frame_picture.png);
+    width: inherit;
     height: 458px;
     margin: auto;
     position: relative;
     z-index: 20;
   }
-  .pic {
-    background-image: url(/images/pic.png);
-    background-position: center;
-    background-repeat: no-repeat;
+  .carousel_photo {
     width: 630px;
     height: 390px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-    bottom: 405px;
-    left: 270px;
-    margin-bottom: -375px;
-    z-index: 0;
+    z-index: 1;
+    bottom: 403px;
+    left: 15px;
+  }
+  .pic-1 {
+    background-image: url(/images/photo-1.png);
+  }
+  .pic-2 {
+    background-image: url(/images/photo-2.png);
+  }
+  .pic-3 {
+    background-image: url(/images/photo-3.png);
+  }
+  .pic-4 {
+    background-image: url(/images/photo-4.png);
+  }
+  .pic-5 {
+    background-image: url(/images/photo-5.png);
+  }
+  .pic-6 {
+    background-image: url(/images/photo-6.png);
+  }
+  .pic-7 {
+    background-image: url(/images/photo-7.png);
+  }
+  .pic-8 {
+    background-image: url(/images/photo-8.png);
+  }
+  .pic-9 {
+    background-image: url(/images/photo-9.png);
+  }
+  .pic-10 {
+    background-image: url(/images/photo-10.png);
+  }
+  .pic-11 {
+    background-image: url(/images/photo-11.png);
+  }
+  .pic-12 {
+    background-image: url(/images/photo-12.png);
   }
   .note {
     background-image: url(/images/note.png);
+    position: relative;
+    bottom: 375px;
     width: 256px;
     height: 104px;
     margin: 30px auto;
     text-align: center;
-    padding: 13px;
+    padding: 15px;
   }
   .name {
     font-family: 'robotocondensed-regular', serif;
@@ -958,7 +1044,7 @@ header {
   content: " ";
   position: relative;
   top: 2px;
-  margin-top: -110px;
+  margin-top: -70px;
   width: 100%;
   height: 221px;
   background: url(/images/ragged_edge_1.png);
@@ -983,6 +1069,7 @@ header {
     font-family: 'mullerblack-italic', serif;
     font-size: 80px;
     color: $blackcolor;
+    text-shadow: 4px 4px 1px #9d9d9d;
   }
   .text{
     font-family: 'robotocondensed-regular', serif;
@@ -990,6 +1077,7 @@ header {
     color: $blackcolor;
     padding: 0 220px;
     margin-bottom: 40px;
+    line-height: 28px;
   }
   .veil {
     background-image: url(/images/veil.png);
@@ -1033,6 +1121,7 @@ header {
     width: 300px;
     position: relative;
     text-align: left;
+    line-height: 35px;
 
     &:nth-of-type(1){
       right: 245px;
@@ -1086,7 +1175,7 @@ header {
 
 .you_will_learn {
   background-color: $bluecolor;
-  padding: 50px 0 150px;
+  padding: 50px 0 140px;
   text-align: center;
 
   .headline {
@@ -1095,28 +1184,9 @@ header {
     color: white;
     text-shadow: 5px 4px 1px #116a83;
   }
-  .slider__text {
-    font-family: 'mullerextra-bold', serif;
-    font-size: 48px;
-    color: white;
-    position: relative;
-    bottom: 5px;
-    width: 700px;
-    height: 100px;
-    margin: 0 auto;
-    line-height: 48px;
-    display: none;
-
-    &:nth-of-type(n+4){
-      padding: 25px;
-    }
-  }
-  .t1 {
-    display: block;
-  }
   .navigation {
     position: relative;
-    top: 235px;
+    top: 320px;
     padding: 0 170px;
   }
   .prew {
@@ -1130,59 +1200,81 @@ header {
     float: right;
     cursor: pointer;
   }
-  .slider {
-    position:relative;
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-inner {
+    position: relative;
     width: 700px;
-    height: 500px;
-    margin: 0 auto;
-  }
-  .slider__check {
-    position: relative;
-    clip:rect(0 0 0 0);
-    top: 530px;
-    left: 22px;
-  }
-  .slider__image {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    z-index: 0;
-    transform: scale(1);
-  }
-  .slider__label {
-    position: relative;
-    top: 545px;
+    height: 540px;
     overflow: hidden;
+  }
+  .carousel-item {
+    position: relative;
+  }
+  .picture {
+    background-position: 50% 20%;
+    background-size: cover;
+    width: 700px;
+    height: 414px;
+    position: relative;
+    top: 125px;
+    z-index:100;
+  }
+  .picture-1 {
+    background-image: url(/images/picture-1.png);
+  }
+  .picture-2 {
+    background-image: url(/images/picture-2.png);
+  }
+  .picture-3 {
+    background-image: url(/images/picture-3.png);
+  }
+  .picture-4 {
+    background-image: url(/images/picture-4.png);
+  }
+  .carousel-indicators {
+    bottom: -85px;
+  }
+  .carousel-indicators li {
     display: inline-block;
+    background-image: url(/images/circle.png);
     width: 30px;
     height: 28px;
-    background-image: url(/images/circle.png);
-    background-color: $bluecolor;
-    border-radius: 15px / 14px;
-    text-indent: -9999px;
-    transition-duration: 0.3s;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
 
-    &:hover {
-      background-color: $seacolor;
+    &.active {
+      background-color: white;
     }
   }
-
-  /* Display */
-  .slider__image {
-    display: none;
-  }
-  .slider__check:checked + .slider__label + .slider__image {
+  .carousel-caption {
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 415px;
+    width: 700px;
+    height: 100px;
+    padding: 0;
     display: block;
   }
-
-  /* Current */
-  .slider__check:checked + .slider__label {
-    background-color: white;
+  p {
+    font-family: 'mullerextra-bold', serif;
+    font-size: 48px;
+    color: white;
+    margin: 0 auto;
+    line-height: 50px;
+  }
+  .middle {
+    padding: 30px 0;
   }
 }
-
-
-
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////   YOU_WILL_LEARN END   ///////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1202,7 +1294,7 @@ header {
     font-family: 'mullerblack-italic', serif;
     font-size: 80px;
     color: $blackcolor;
-    text-shadow: 5px 4px 1px #66a7b9;
+    text-shadow: 4px 5px 1px #66a7b9;
     margin-bottom: 60px;
   }
   .cloud {
@@ -1254,13 +1346,15 @@ header {
     font-size: 21px;
     color: $blackcolor;
     padding: 0 70px;
-    margin: -15px auto;
+    margin: -10px auto;
+    line-height: 28px;
   }
   .tx7 {
     font-family: 'robotocondensed-bold', serif;
     font-size: 35px;
     font-weight: bold;
-    padding: 0 370px;
+    padding: 18px 370px;
+    line-height: 40px;
   }
   .arrow {
     background-image: url(/images/arrow.png);
@@ -1296,7 +1390,7 @@ header {
 
 .price {
   background-color: #f03c3c;
-  padding: 90px 0 140px;
+  padding: 90px 0 120px;
   text-align: center;
 
   .headline {
@@ -1313,35 +1407,11 @@ header {
   .value {
     width: 20%;
   }
-  .outline {
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 26px;
-    position: relative;
-    top: 22px;
-    left: 9px;
-  }
-  .outline-1 {
-    background-image: url(/images/outline-1.png);
-  }
-  .outline-2 {
-    background-image: url(/images/outline-2.png);
-  }
-  .outline-3 {
-    background-image: url(/images/outline-3.png);
-  }
-  .outline-4 {
-    background-image: url(/images/outline-4.png);
-  }
-  .outline-5 {
-    background-image: url(/images/outline-5.png);
-  }
   .icon {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 20px;
+    height: 27px;
   }
   .icon-1 {
     background-image: url(/images/icon-1.png);
@@ -1362,7 +1432,7 @@ header {
     font-family: 'robotocondensed-bold', serif;
     font-size: 30px;
     color: white;
-    margin: 15px 0 15px 20px;
+    margin: 15px 0 15px 0;
   }
   .underline {
     background-image: url(/images/underline.png);
@@ -1370,13 +1440,12 @@ header {
     background-repeat: no-repeat;
     width: 100%;
     height: 9px;
-    margin: 0 0 10px 10px;
+    margin: 0 0 15px 0;
   }
   .cost {
     font-family: 'mullerblack-regular', serif;
     font-size: 45px;
     color: white;
-    margin-left: 15px;
   }
   .rouble {
     font-family: 'ptrouble', serif;
@@ -1387,9 +1456,10 @@ header {
     font-family: 'robotocondensed-regular', serif;
     font-size: 18px;
     color: white;
-    width: 175px;
-    height: 200px;
+    width: 185px;
+    height: 175px;
     margin: 0 auto;
+    line-height: 23px;
   }
   button {
     background-image: url(/images/button.png);
@@ -1461,6 +1531,7 @@ header {
     font-family: 'robotocondensed-regular', serif;
     font-size: 18px;
     color: $blackcolor;
+    line-height: 21px;
     padding: 20px 20px;
     width: calc(100% - 30px);
   }
@@ -1476,6 +1547,10 @@ header {
     margin-right: 10px;
     float: right;
     transition-duration: 0.3s;
+
+    &.active {
+      transform: rotate(90deg);
+    }
   }
   .answer {
     font-family: 'robotocondensed-regular', serif;
@@ -1489,6 +1564,7 @@ header {
     background-position: 50% 0%;
     background-repeat: no-repeat;
     cursor: text;
+    line-height: 21px;
   }
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1511,6 +1587,7 @@ header {
     font-size: 80px;
     color: white;
     margin: 0 auto 50px;
+    text-shadow: 6px 4px 1px #cf2121;
   }
   .duck {
     background-image: url(/images/duck.png);
@@ -1531,6 +1608,7 @@ header {
     font-family: 'robotocondensed-regular', serif;
     font-size: 18px;
     color: $blackcolor;
+    line-height: 24px;
     padding: 80px 35px 0 65px;
   }
   .exclamation {
@@ -1567,7 +1645,7 @@ header {
     font-family: 'mullerblack-italic', serif;
     font-size: 80px;
     color: $blackcolor;
-    text-shadow: 5px 4px 1px #5fa6ba;
+    text-shadow: 4px 4px 1px #5fa6ba;
   }
   .logotypes {
     display: flex;

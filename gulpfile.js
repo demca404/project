@@ -7,8 +7,9 @@ var gulp = require('gulp');
 
 gulp.task('production_css', function () {
     var scssStream = gulp.src([
-        'public_dev/scss/vendor/bootstrap-reboot.scss',
-        'public_dev/scss/vendor/bootstrap-grid.scss',
+        // 'public_dev/scss/vendor/bootstrap-reboot.scss',
+        // 'public_dev/scss/vendor/bootstrap-grid.scss',
+        'public_dev/scss/vendor/bootstrap.scss',
         'public_dev/scss/custom/style.scss'
     ])
         .pipe(sass.sync().on('error', sass.logError))
@@ -31,6 +32,8 @@ gulp.task('production_css', function () {
 gulp.task('production_js', function () {
     return gulp.src([
         'public_dev/js/vendor/jquery.min.js',
+        'public_dev/js/vendor/tether.min.js',
+        'public_dev/js/vendor/bootstrap.min.js',
         'public_dev/js/custom/script.js'
     ])
         .pipe(concatJs('script.js'))
