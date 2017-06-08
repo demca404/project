@@ -117,7 +117,7 @@ header {
     font-family: 'mullerextra-bold', serif;
     font-size: 100px;
     color: $blackcolor;
-    text-shadow: 5px 4px 1px #126177;
+    text-shadow: 4px 3px 1px #57a0b5;
     line-height: 70px;
   }
   .rouble {
@@ -130,7 +130,7 @@ header {
     font-size: 50px;
     color: $blackcolor;
     font-weight: 600;
-    text-shadow: 4px 3px 1px #126177;
+    text-shadow: 4px 3px 1px #57a0b5;
   }
   .other {
     font-family: 'robotocondensed-regular', serif;
@@ -285,8 +285,8 @@ header {
     bottom: 20px;
     width: 277px;
     height: 197px;
-    padding: 65px 20px 65px 44px;
-    font-family: 'robotocondensed-regular', serif;
+    padding: 65px 15px 65px 40px;
+    font-family: 'robotocondensed-bold', serif;
     font-size: 30px;
     line-height: 30px;
     text-align: center;
@@ -629,13 +629,34 @@ header {
     text-align: center;
     line-height: 38px;
   }
+  .carousel {
+    width: 970px;
+    height: 510px;
+    margin: 0 auto;
+  }
+  .navigation_people {
+    position: relative;
+    top: 235px;
+    padding: 0 75px;
+  }
+  .prew {
+    position: relative;
+    transform: rotate(180deg);
+    float: left;
+    cursor: pointer;
+  }
+  .next {
+    position: relative;
+    float: right;
+    cursor: pointer;
+  }
   .cards {
     margin-top: 30px;
     text-align: center;
   }
   .card {
     display: inline-block;
-    width: 330px;
+    width: 320px;
     height: 400px;
     margin: 0 auto;
     background-color: transparent;
@@ -672,21 +693,21 @@ header {
     width: 160px;
     height: 260px;
     position: relative;
-    left: 85px;
+    left: 80px;
     border-radius: 110px / 195px;
   }
   .width-2 {
     width: 140px;
     height: 245px;
     position: relative;
-    left: 95px;
+    left: 90px;
     border-radius: 110px / 195px;
   }
   .width-3 {
     width: 155px;
     height: 250px;
     position: relative;
-    left: 88px;
+    left: 85px;
     border-radius: 110px / 195px;
   }
   .photo-1 {
@@ -748,7 +769,7 @@ header {
     font-size: 80px;
     color: $blackcolor;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .point {
     background-repeat: no-repeat;
@@ -778,10 +799,10 @@ header {
     display: flex;
     align-items: center;
     margin: 0 auto 40px;
-    height: 170px;
+    height: 165px;
 
     &:nth-of-type(5){
-      height: 150px;
+      height: 130px;
     }
   }
   .text_prize {
@@ -890,7 +911,7 @@ header {
 
 .main {
   background-color: $bluecolor;
-  padding: 80px 0;
+  padding: 70px 0 90px;
   text-align: center;
 
   .headline {

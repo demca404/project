@@ -7312,7 +7312,7 @@ header .money {
   font-family: 'mullerextra-bold', serif;
   font-size: 100px;
   color: #161616;
-  text-shadow: 5px 4px 1px #126177;
+  text-shadow: 4px 3px 1px #57a0b5;
   line-height: 70px;
 }
 
@@ -7327,7 +7327,7 @@ header .photocamera {
   font-size: 50px;
   color: #161616;
   font-weight: 600;
-  text-shadow: 4px 3px 1px #126177;
+  text-shadow: 4px 3px 1px #57a0b5;
 }
 
 header .other {
@@ -7484,8 +7484,8 @@ header .click {
   bottom: 20px;
   width: 277px;
   height: 197px;
-  padding: 65px 20px 65px 44px;
-  font-family: 'robotocondensed-regular', serif;
+  padding: 65px 15px 65px 40px;
+  font-family: 'robotocondensed-bold', serif;
   font-size: 30px;
   line-height: 30px;
   text-align: center;
@@ -7811,6 +7811,31 @@ header .click {
   line-height: 38px;
 }
 
+.jury .carousel {
+  width: 970px;
+  height: 510px;
+  margin: 0 auto;
+}
+
+.jury .navigation_people {
+  position: relative;
+  top: 235px;
+  padding: 0 75px;
+}
+
+.jury .prew {
+  position: relative;
+  transform: rotate(180deg);
+  float: left;
+  cursor: pointer;
+}
+
+.jury .next {
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+
 .jury .cards {
   margin-top: 30px;
   text-align: center;
@@ -7818,7 +7843,7 @@ header .click {
 
 .jury .card {
   display: inline-block;
-  width: 330px;
+  width: 320px;
   height: 400px;
   margin: 0 auto;
   background-color: transparent;
@@ -7861,7 +7886,7 @@ header .click {
   width: 160px;
   height: 260px;
   position: relative;
-  left: 85px;
+  left: 80px;
   border-radius: 110px / 195px;
 }
 
@@ -7869,7 +7894,7 @@ header .click {
   width: 140px;
   height: 245px;
   position: relative;
-  left: 95px;
+  left: 90px;
   border-radius: 110px / 195px;
 }
 
@@ -7877,7 +7902,7 @@ header .click {
   width: 155px;
   height: 250px;
   position: relative;
-  left: 88px;
+  left: 85px;
   border-radius: 110px / 195px;
 }
 
@@ -7929,7 +7954,7 @@ header .click {
   font-size: 80px;
   color: #161616;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .prizes .point {
@@ -7966,11 +7991,11 @@ header .click {
   display: flex;
   align-items: center;
   margin: 0 auto 40px;
-  height: 170px;
+  height: 165px;
 }
 
 .prizes .place:nth-of-type(5) {
-  height: 150px;
+  height: 130px;
 }
 
 .prizes .text_prize {
@@ -8057,7 +8082,7 @@ header .click {
 
 .main {
   background-color: #2295b6;
-  padding: 80px 0;
+  padding: 70px 0 90px;
   text-align: center;
 }
 
