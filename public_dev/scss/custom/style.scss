@@ -388,6 +388,7 @@ header {
 
 .conditions {
   background-color: $seacolor;
+  background-image: linear-gradient(to top, rgba(#000, 0.1) 0%, rgba($seacolor, 1) 25%);
   padding-bottom: 100px;
 
   .flex {
@@ -492,6 +493,8 @@ header {
 
 .drop_out {
   background-color: $bluecolor;
+
+
   .flex {
     display: flex;
     flex-wrap: wrap;
@@ -618,6 +621,7 @@ header {
 
 .jury {
   background-color: $seacolor;
+  background-image: linear-gradient(to bottom, rgba(#000, 0.1) 0%, rgba($seacolor, 1) 25%);
   padding: 65px 0 0;
 
   .headline {
@@ -636,7 +640,7 @@ header {
   }
   .navigation_people {
     position: relative;
-    top: 235px;
+    top: 200px;
     padding: 0 75px;
   }
   .prew {
@@ -848,6 +852,7 @@ header {
 
 .present {
     background-color: $seacolor;
+  background-image: linear-gradient(to top, rgba(#000, 0.1) 0%, rgba($seacolor, 1) 25%);
 
   .flex {
     display: flex;
@@ -943,6 +948,7 @@ header {
 
 .student_work {
   background-color: $seacolor;
+  background-image: linear-gradient(to bottom, rgba(#000, 0.1) 0%, rgba($seacolor, 1) 25%);
   padding: 90px 0 0;
   text-align: center;
 
@@ -1307,7 +1313,8 @@ header {
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 .how_it_works {
-  background-color: $seacolor;
+  background: $seacolor;
+  background-image: linear-gradient(to bottom, rgba(#000, 0.1) 0%, rgba($seacolor, 1) 25%, rgba($seacolor, 1) 75%, rgba(#000, 0.1) 100%);
   padding: 90px 0 50px;
   text-align: center;
 
@@ -1507,6 +1514,7 @@ header {
 
 .question {
   background-color: $seacolor;
+  background-image: linear-gradient(to bottom, rgba(#000, 0.1) 0%, rgba($seacolor, 1) 25%, rgba($seacolor, 1) 75%, rgba(#000, 0.1) 100%);
   padding: 70px 0 100px;
 
   .headline {
@@ -1659,6 +1667,7 @@ header {
 
 .partners {
   background-color: $seacolor;
+  background-image: linear-gradient(to bottom, rgba(#000, 0.1) 0%, rgba($seacolor, 1) 25%, rgba($seacolor, 1) 75%, rgba(#000, 0.1) 100%);
   padding: 90px 0;
   text-align: center;
 

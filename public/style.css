@@ -7578,6 +7578,7 @@ header .click {
 
 .conditions {
   background-color: #a5e1f2;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, #a5e1f2 25%);
   padding-bottom: 100px;
 }
 
@@ -7798,6 +7799,7 @@ header .click {
 
 .jury {
   background-color: #a5e1f2;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #a5e1f2 25%);
   padding: 65px 0 0;
 }
 
@@ -7819,7 +7821,7 @@ header .click {
 
 .jury .navigation_people {
   position: relative;
-  top: 235px;
+  top: 200px;
   padding: 0 75px;
 }
 
@@ -8026,6 +8028,7 @@ header .click {
 
 .present {
   background-color: #a5e1f2;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, #a5e1f2 25%);
 }
 
 .present .flex {
@@ -8107,6 +8110,7 @@ header .click {
 
 .student_work {
   background-color: #a5e1f2;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #a5e1f2 25%);
   padding: 90px 0 0;
   text-align: center;
 }
@@ -8496,7 +8500,8 @@ header .click {
 }
 
 .how_it_works {
-  background-color: #a5e1f2;
+  background: #a5e1f2;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #a5e1f2 25%, #a5e1f2 75%, rgba(0, 0, 0, 0.1) 100%);
   padding: 90px 0 50px;
   text-align: center;
 }
@@ -8705,6 +8710,7 @@ header .click {
 
 .question {
   background-color: #a5e1f2;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #a5e1f2 25%, #a5e1f2 75%, rgba(0, 0, 0, 0.1) 100%);
   padding: 70px 0 100px;
 }
 
@@ -8850,6 +8856,7 @@ header .click {
 
 .partners {
   background-color: #a5e1f2;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #a5e1f2 25%, #a5e1f2 75%, rgba(0, 0, 0, 0.1) 100%);
   padding: 90px 0;
   text-align: center;
 }
